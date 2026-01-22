@@ -1,0 +1,14 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.mvpcad.app
+productName: MVP CAD
+win:
+  target:
+    - nsis
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+files: []
+electronVersion: 29.4.6
